@@ -4,12 +4,12 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
-REPO_NAME = "End_to_end_MLOPS_project"
-AUTHOR_USER_NAME = "Somesh"
+REPO_NAME = "D8_End_to_end_MLOPS_project"
+AUTHOR_USER_NAME = "PV"
 SRC_REPO = "mlProject"
-AUTHOR_EMAIL = "chitranshisomesh@gmail.com"
+AUTHOR_EMAIL = "devplearn@gmail.com"
 
 
 setuptools.setup(
