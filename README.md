@@ -73,10 +73,17 @@ Run this to export as env variables:
 ```bash
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/devplearn/D8_End_to_end_MLOPS_project.mlflow
+## in Windows it's set instead of export
+set MLFLOW_TRACKING_URI=https://dagshub.com/devplearn/D8_End_to_end_MLOPS_project.mlflow
 
-export MLFLOW_TRACKING_USERNAME=someshnaman 
+export MLFLOW_TRACKING_USERNAME=someshnaman
+export MLFLOW_TRACKING_USERNAME=devplearn
+set MLFLOW_TRACKING_USERNAME=devplearn
 
 export MLFLOW_TRACKING_PASSWORD=6e7e6b4e21fb207c4cbf0d4d7f20506e23e748cc
+export MLFLOW_TRACKING_PASSWORD=85158c16525bd779abbd9c6d78e4334846b0d962
+set MLFLOW_TRACKING_PASSWORD=85158c16525bd779abbd9c6d78e4334846b0d962
 
 ```
 # AWS-CICD-Deployment-with-Github-Actions
